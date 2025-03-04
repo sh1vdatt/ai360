@@ -35,9 +35,10 @@ AI Solutions is a React-based web application built with Vite, Tailwind CSS, and
 - `src/` - Main source code
   - `components/` - Reusable UI components
   - `pages/` - Page components
-  - `styles/` - Tailwind CSS configuration
-- `config/` - Configuration files for Vite and Tailwind CSS
-- `assets/` - Images, fonts, and other media files
+  - `layout/` - Main structure wrapper
+  - `sections/` - Contains major standalone sections of the application
+  - `ui/` - Contains reusable, atomic UI components 
+
 
 ### Architecture Overview
 The project follows a modular architecture where each major feature is broken down into reusable components. The `pages/` directory manages route-specific components, while `components/` contains UI elements that can be used throughout the app. Vite handles the bundling and development environment, and Tailwind CSS is integrated for styling. Configuration files are stored in the `config/` directory to manage settings efficiently.
