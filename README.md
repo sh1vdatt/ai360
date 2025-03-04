@@ -1,6 +1,6 @@
 # AI Solutions
 
-AI360 is a React-based web application built with Vite, Tailwind CSS, and Javascipt. It provides AI-powered solutions for various industries, including finance, logistics, media, and more.
+AI Solutions is a React-based web application built with Vite, Tailwind CSS, and Javascipt. It provides AI-powered solutions for various industries, including finance, logistics, media, and more.
 
 ## Features
 - AI-powered analytics and insights
