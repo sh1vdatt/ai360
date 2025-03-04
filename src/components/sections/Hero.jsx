@@ -34,7 +34,7 @@ export default function Hero() {
               : "opacity-0 translate-y-10"
           }`}
       >
-        <div className="absolute inset-0 bg-[url('/bg.jpg')] bg-cover bg-center"></div>
+        <div className="absolute inset-0 bg-[url('/bg.webp')] bg-cover bg-center"></div>
         <div className="relative z-10 container mx-auto px-4 h-screen flex flex-col items-center justify-center text-center">
           <h1 className="text-6xl md:text-7xl font-bold mb-8 leading-tight">
             Leading International Developer of <br />

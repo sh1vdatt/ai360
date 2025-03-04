@@ -1,12 +1,65 @@
-# React + Vite
+# AI360
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI360 is a React-based web application built with Vite, Tailwind CSS, and Javascipt. It provides AI-powered solutions for various industries, including finance, logistics, media, and more.
 
-Currently, two official plugins are available:
+## Features
+- AI-powered analytics and insights
+- Industry-specific AI solutions
+- Modern UI built with Tailwind CSS
+- Optimized for performance with Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend:** React, JavaScript
+- **Styling:** Tailwind CSS, PostCSS
+- **Build Tool:** Vite
+- **Linting:** ESLint
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/ai360.git
+   cd ai360
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+## Project Structure
+- `public/` - Static assets and images
+- `src/` - Main source code
+  - `components/` - Reusable UI components
+  - `pages/` - Page components
+  - `styles/` - Tailwind CSS configuration
+- `config/` - Configuration files for Vite and Tailwind CSS
+- `assets/` - Images, fonts, and other media files
+
+### Architecture Overview
+The project follows a modular architecture where each major feature is broken down into reusable components. The `pages/` directory manages route-specific components, while `components/` contains UI elements that can be used throughout the app. Vite handles the bundling and development environment, and Tailwind CSS is integrated for styling. Configuration files are stored in the `config/` directory to manage settings efficiently.
+
+## Deployment
+To build the project for production:
+```sh
+npm run build
+```
+
+To preview the production build:
+```sh
+npm run preview
+```
+
+## Contributing
+Contributions are welcome! Feel free to open issues and submit pull requests.
+
+## License
+This project is licensed under the MIT License.
+
+---
+
+For any issues or feature requests, please open an issue on GitHub.
+
