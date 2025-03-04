@@ -1,4 +1,3 @@
-import { Search, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import IndustriesSection from "./Industries";
 import { useInView } from "react-intersection-observer";

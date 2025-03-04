@@ -9,36 +9,36 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   AI Consulting
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   Custom AI Development
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   AI Integration
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   AI Training
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -46,36 +46,36 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Industries</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   Healthcare
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   Finance
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   Manufacturing
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   Retail
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -83,36 +83,36 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Products</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   AI Platform
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   Data Analytics
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   Predictive Models
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   AI Assistants
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -120,46 +120,46 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   Careers
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <a href="/" className="text-2xl font-bold">
+            <Link href="/" className="text-2xl font-bold">
               <span className="text-white">AI</span>
               <span className="text-blue-400">Solutions</span>
-            </a>
+            </Link>
           </div>
           <div className="text-gray-400 text-sm">
             &copy; {new Date().getFullYear()} AISolutions Inc. All rights
